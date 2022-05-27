@@ -1,0 +1,7 @@
+server:
+  port: ${SERVER.PORT:8086}
+vnpost:
+  url: https://ws.vnpost.vn/TrackAndTrace/TrackAndTrace.asmx?wsdl
+  user: banncpt
+  pass: banncpt@123
+  namespaceURI: vnpost.ws
